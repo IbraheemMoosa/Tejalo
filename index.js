@@ -14,7 +14,7 @@ app.set('view engine', 'html');
 app.use(express.static(path.join(__dirname, '/public')));
 
 app.get('/', (req, res) => {
-	res.render("home", {value: "Something"});
+	res.render("home");
 });
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
