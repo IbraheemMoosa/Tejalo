@@ -15,3 +15,13 @@ body {
   line-height: 60px;
   background-color: #b7b7b7;
 }
+
+#myCarousel{
+  width: 75%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.carousel-item{
+  margin: 0 auto;
+}
