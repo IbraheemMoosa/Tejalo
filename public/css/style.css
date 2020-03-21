@@ -43,3 +43,7 @@ body {
 #socialMediaIcons {
 	height: 60px;
 }
+
+#mainNavbar {
+	padding-left: 0;
+}
