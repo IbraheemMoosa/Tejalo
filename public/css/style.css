@@ -1,0 +1,9 @@
+#myCarousel{
+  width: 75%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.carousel-item{
+  margin: 0 auto;
+}
