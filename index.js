@@ -21,4 +21,9 @@ app.get('/login', (req, res) => {
 	res.render("login", {css: "login.css"});
 });
 
+app.get('/register', (req, res) => {
+	res.render("register", {css: "register.css"});
+});
+
+
 app.listen(port, () => console.log(`Server running on port ${port}`));
