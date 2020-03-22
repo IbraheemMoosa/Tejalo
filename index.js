@@ -15,6 +15,7 @@ app.use(express.static(path.join(__dirname, '/public')));
 
 app.get('/', (req, res) => {
 	res.render("home");
+	res.render("ff");
 });
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
