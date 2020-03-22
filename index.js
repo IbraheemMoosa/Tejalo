@@ -21,4 +21,8 @@ app.get('/login', (req, res) => {
 	res.render("login", {css: "login.css"});
 });
 
+app.get('/frequent-flyers', (req, res) => {
+	res.render("frequent-flyers", {css:"frequent-flyers.css"})
+});
+
 app.listen(port, () => console.log(`Server running on port ${port}`));
