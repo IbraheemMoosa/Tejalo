@@ -14,19 +14,19 @@ app.set('view engine', 'html');
 app.use(express.static(path.join(__dirname, '/public')));
 
 app.get('/', (req, res) => {
-	res.render("home");
+	res.render("home", {active: {"home": true}});
 });
 
 app.get('/login', (req, res) => {
-	res.render("login", {css: "login.css"});
+	res.render("login", {css: "login.css", active: {"login": true}});
 });
 
 app.get('/register', (req, res) => {
-	res.render("register", {css: "register.css"});
+	res.render("register", {css: "register.css", active: {"register": true}});
 });
 
 app.get('/frequent-flyers', (req, res) => {
-	res.render("frequent-flyers", {css: "frequent-flyers.css"});
+	res.render("frequent-flyers", {css: "frequent-flyers.css", active: {"frequent-flyers": true}});
 });
 
 
